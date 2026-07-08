@@ -1,0 +1,7 @@
+{
+  "gamepad": {
+    "buttons": {
+      "FACE_BOTTOM": "jump"
+    }
+  }
+}

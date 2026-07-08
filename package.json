@@ -1,0 +1,39 @@
+{
+  "name": "svelte-phaser",
+  "version": "1.0.0",
+  "description": "Svelte 5 components and hooks for building Phaser 4 games",
+  "license": "MIT",
+  "type": "module",
+  "svelte": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.ts",
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./core": {
+      "types": "./src/core/index.ts",
+      "default": "./src/core/index.ts"
+    }
+  },
+  "files": [
+    "src",
+    "jsr.json",
+    "LICENSE"
+  ],
+  "keywords": [
+    "svelte",
+    "phaser",
+    "game",
+    "webgl"
+  ],
+  "devDependencies": {
+    "phaser": "^4.0.0",
+    "svelte": "^5.0.0"
+  },
+  "peerDependencies": {
+    "phaser": "^4.0.0",
+    "svelte": "^5.0.0"
+  }
+}

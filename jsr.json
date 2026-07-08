@@ -1,0 +1,19 @@
+{
+  "name": "@easierbycode/svelte-phaser",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/core/index.ts"
+  },
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable"]
+  },
+  "publish": {
+    "include": [
+      "src/core/**",
+      "README.md",
+      "package.json",
+      "LICENSE"
+    ]
+  }
+}
