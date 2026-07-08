@@ -1,8 +1,12 @@
 {
-  "name": "svelte-phaser",
+  "name": "5velte-ph4ser",
   "version": "1.0.0",
   "description": "Svelte 5 components and hooks for building Phaser 4 games",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easierbycode/svelte-phaser.git"
+  },
   "type": "module",
   "svelte": "./src/index.ts",
   "types": "./src/index.ts",
