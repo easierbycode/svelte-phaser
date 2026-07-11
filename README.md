@@ -33,7 +33,7 @@ project, so install this package by path:
 
 ```sh
 npm install phaser svelte
-npm install <path-to>/svelte-phaser   # or "svelte-phaser": "file:../svelte-phaser"
+npm i 5velte-ph4ser
 ```
 
 (see [examples/dino](examples/dino), which consumes it via `file:../..`)
@@ -131,6 +131,7 @@ context and lifecycle under the hood).
   theme/color customization. `cd examples/dino && npm install && npm run dev`.
   The deployable full-stack version (Deno Deploy + PostgreSQL leaderboard)
   lives at [dino-sp](https://github.com/easierbycode/dino-sp).
+- [mario-sp](https://easierbycode.com/mario-sp)
 
 ## Publishing
 
