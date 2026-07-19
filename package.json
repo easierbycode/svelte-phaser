@@ -1,6 +1,6 @@
 {
   "name": "5velte-ph4ser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Svelte 5 components and hooks for building Phaser 4 games",
   "license": "MIT",
   "repository": {

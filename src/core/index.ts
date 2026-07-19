@@ -28,7 +28,12 @@ export {
   onArcadePhysicsEvent,
 } from './events.ts'
 
-export { removeUndefined, toArray, findGameObjectsByName } from './util.ts'
+export {
+  removeUndefined,
+  toArray,
+  findGameObjectsByName,
+  isDestroyed,
+} from './util.ts'
 
 export type {
   InteractiveConfig,

@@ -4,6 +4,7 @@
   import { attachSpriteAnimationEvents } from './core/attach'
   import { getScene } from './core/context'
   import type { SpriteProps } from './core/types'
+  import { isDestroyed } from './core/util'
   import { useGameObject } from './gameObject.svelte'
   import { bindProp } from './util.svelte'
 
@@ -18,7 +19,8 @@
   const scene = getScene()
 
   // svelte-ignore state_referenced_locally -- constructor takes initial values; effects handle updates
-  if (!instance) {
+  // a destroyed instance counts as absent — see isDestroyed
+  if (!instance || isDestroyed(instance)) {
     instance = new Phaser.GameObjects.Sprite(
       scene,
       rest.x ?? 0,
